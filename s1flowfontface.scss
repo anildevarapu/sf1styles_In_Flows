@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Salesforce Sans';
+	src: url('data:application/x-font-woff;charset=utf-8;base64,' + $salesforce-sans-regular-src) format('woff');
+}
+
+@font-face {
+	font-family: 'SalesforceSans-Regular';
+	src: url('data:application/x-font-woff;charset=utf-8;base64,' + $salesforce-sans-regular-src) format('woff');
+}
+
+@font-face {
+	font-family: 'SalesforceSans-Light';
+	src: url('data:application/x-font-woff;charset=utf-8;base64,' + $salesforce-sans-light-src) format('woff');
+}
+
+@font-face {
+	font-family: 'SalesforceSans-Bold';
+	src: url('data:application/x-font-woff;charset=utf-8;base64,' + $salesforce-sans-bold-src) format('woff');
+}
+

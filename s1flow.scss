@@ -1,0 +1,117 @@
+@import "bg-actions",
+		"bg-custom",
+		"bg-icons",
+		"bg-standard",
+		"force-base",
+		"force-font-commons",
+		"force-mq-commons",
+		"s1-base-large",
+		"s1-base-medium",
+		"s1-base",
+		"s1flowfontface",
+		"s1flowmixins";
+
+
+.FlowContainer{
+	font-size: $font-size-medium;
+	font-family: $font-family;
+}
+
+.FlowPageBlockBtns{
+	.FlowNextBtn{
+		@include button;
+		@include buttonBrand;
+	}
+	.FlowPreviousBtn{
+		@include button;
+		@include buttonBrand;
+	}
+	.FlowFinishBtn{
+		@include button;
+		@include buttonBrand;
+	}
+	.FlowCancelBtn{
+		@include button;
+		@include buttonBrand;
+	}
+	.FlowPauseBtn{
+		@include button;
+		@include buttonBrand;
+	}
+
+}
+
+table{
+   width: 100%;  
+          
+ }
+ td{
+    display:block;
+ }
+
+ .labelCol, .interviewDisplayTextRow{
+ 	 padding-top: 10px !important; 
+ }
+
+ .empty{
+    display:none;
+ }
+
+.dateFormat{
+    display:none;
+}
+
+.datePicker{
+    display:none;
+}
+
+/*
+.multiSelectPicklistRow{
+	display:none;	
+}
+*/
+
+textarea{
+    @include text;
+	@include inputTextArea;
+}
+
+input[type=text]{
+	@include text;
+	@include inputText;
+}
+
+input[type=password]{
+	@include text;
+	@include inputText;
+}
+
+input[type=date]{
+	@include text;
+	@include inputText;
+}
+
+
+select {
+  @include text;
+  @include select;
+ 
+}
+
+input[type=radio]{
+	@include radio;
+ 
+    
+}
+
+
+input[type=checkbox]{
+	@include checkbox;
+
+}
+
+
+
+
+
+
