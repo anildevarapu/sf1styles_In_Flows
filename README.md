@@ -11,8 +11,8 @@ Please note that multi picklist are not supported yet.
 
 ### Usage
 
-1. Download the [s1flow.zip] file and upload it as static resource
-2. Then embed your flow in a Visualforce page as below
+* Download the [s1flow.zip] file and upload it as static resource
+* Then embed your flow in a Visualforce page as below
 ```sh
 <apex:page standardStylesheets="false" showHeader="false" sidebar="false" >
     <apex:stylesheet value="{!URLFOR($Resource.s1flow,'s1flow.css')}" />     
@@ -20,9 +20,9 @@ Please note that multi picklist are not supported yet.
     <flow:interview name="myflowcss"/>
 </apex:page>
 ```
-3. Make sure the Visualforce page is set up as 'Available for Salesforce mobile apps and Lightning Page'
-4. Place this visualforce page in the Salesforce1 navigation menu or as a quick action
-5. Enjoy!
+* Make sure the Visualforce page is set up as 'Available for Salesforce mobile apps and Lightning Page'
+* Place this visualforce page in the Salesforce1 navigation menu or as a quick action
+* Enjoy!
 
 License
 ----
